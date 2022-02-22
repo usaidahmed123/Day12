@@ -51,7 +51,9 @@ public class StringClass {
 		//concatenating two words
 		String a = "hello";
 		String b = "boss";
+		String c = a.concat(b);
 		System.out.println("\nConcat two strings a and b : "+a.concat(b));
+		System.out.println("\n\nConcat two strings ie already stored in c : "+c);
 		
 		
 	}
